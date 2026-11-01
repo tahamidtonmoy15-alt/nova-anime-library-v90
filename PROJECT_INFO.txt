@@ -1,0 +1,5 @@
+NOVA v16 complete Android source project for GitHub Actions.
+Repository root is this directory. Full web assets (including FFmpeg JS and WASM) are in app/src/main/assets/www/.
+Native Android player buttons: Open in VLC, Open in MX Player, Other player… and Save to phone.
+Build: Android Gradle Plugin 8.6.1, Gradle 8.7, JDK 17, compile SDK 35, min SDK 23.
+See README-BN.md for Bengali upload and build instructions. APK/device runtime validation is still required.

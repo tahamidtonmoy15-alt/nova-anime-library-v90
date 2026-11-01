@@ -1,0 +1,18 @@
+NOVA v16 — GitHub Upload শুরু করার আগে এটি পড়ো
+================================================
+
+এটি সম্পূর্ণ GitHub-ready Android project। ZIP-টি Extract করলেই app/, .github/ এবং Gradle ফাইলগুলো সঠিক জায়গায় পাবে।
+
+১) এই ZIP-টি Download করে Extract All করো।
+২) Extract করা ফোল্ডারটি খুলে ভেতরের সবকিছু GitHub repository-র Upload files পেজে একসঙ্গে drag-and-drop করো। ZIP ফাইলটি সরাসরি upload করবে না।
+৩) .github ফোল্ডারটি যেন বাদ না যায়। না দেখালে Windows File Explorer → View → Show → Hidden items চালু করো।
+৪) Upload তালিকায় app/ এবং .github/workflows/android-apk.yml আছে কি না দেখো।
+৫) নিচে Commit changes চাপো।
+৬) Actions tab → Build NOVA Android APK খুলে সবুজ check হওয়া পর্যন্ত অপেক্ষা করো।
+৭) সবুজ check হলে Artifacts → NOVA-Android-APK download করো; artifact ZIP Extract করলে APK পাবে।
+
+গুরুত্বপূর্ণ:
+- GitHub repository root-এ app/, .github/, build.gradle, settings.gradle, gradle.properties সরাসরি থাকতে হবে।
+- এই ZIP source project; APK নয়।
+- Debug APK প্রথম পরীক্ষার জন্য। স্থায়ী আপডেটের জন্য README-BN.md-এ signing secrets-এর নির্দেশনা আছে।
+- VLC/MX Player বাস্তব ফোনে পরীক্ষা করা এখনো বাকি।
